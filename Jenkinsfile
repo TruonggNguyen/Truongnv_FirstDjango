@@ -58,7 +58,7 @@ node {
         }
         catch(err) {
             testsError = err
-            currentBuild.result = 'FAILURE'
+            currentBuild.result = 'FAILURE1'
         }
         finally {
             junit 'reports/junit.xml'
